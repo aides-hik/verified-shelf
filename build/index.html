@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Verified Shelf · Design Anti-Slop</title>
+  <meta name="description" content="Curated ≤10 design anti-slop skill packs with pinned refs, content hashes, and verify links before install." />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <p class="eyebrow">Verified Shelf v1</p>
+    <h1>Design Anti-Slop Skill Packs</h1>
+    <p class="lede">
+      A curated shelf of ≤10 public packs. Each card shows a pinned commit,
+      content SHA-256, and verify checklist <strong>before</strong> the Cursor install command.
+      Not a search marketplace. Not a seller upload. No checkout.
+    </p>
+    <p class="meta" id="runtime-meta">Install runtime: <code>cursor</code> · Vertical: <code>design-anti-slop</code></p>
+  </header>
+
+  <main>
+    <section class="shelf" aria-labelledby="shelf-heading">
+      <div class="shelf-head">
+        <h2 id="shelf-heading">Shelf</h2>
+        <p id="pack-count" class="pack-count" aria-live="polite">Loading…</p>
+      </div>
+      <div id="shelf" class="card-grid" role="list"></div>
+      <p id="shelf-error" class="error" hidden></p>
+    </section>
+
+    <section class="waitlist" id="waitlist" aria-labelledby="waitlist-heading">
+      <h2 id="waitlist-heading">Waitlist</h2>
+      <p>
+        Notify when the shelf grows or install-hook partners land.
+        No new form backend in v1 — use the existing waitlist page or email.
+      </p>
+      <p class="waitlist-actions">
+        <a id="waitlist-link" class="btn primary" href="https://cursor.com/canvas/store-ee6f3732-a655-4ad3-9b18-3885346d8283/433e4d1a-fe1c-4541-9466-8deeede412fd" rel="noopener" data-waitlist-url="https://cursor.com/canvas/store-ee6f3732-a655-4ad3-9b18-3885346d8283/433e4d1a-fe1c-4541-9466-8deeede412fd">Join waitlist</a>
+      </p>
+      <p class="waitlist-email">
+        Or email
+        <a id="waitlist-email" href="mailto:paininbox+waitlist@mail.grokbot.com">paininbox+waitlist@mail.grokbot.com</a>
+      </p>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <p>Original static site · pins and hashes computed from public GitHub raw files · OSS only</p>
+  </footer>
+
+  <script src="app.js" defer></script>
+</body>
+</html>
