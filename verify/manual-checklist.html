@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Manual Verify Checklist · Verified Shelf</title>
+  <link rel="stylesheet" href="../styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <p class="eyebrow">verify_kind = manual_checklist</p>
+    <h1>Pre-install checklist</h1>
+    <p class="lede">
+      Use this public checklist before running any <code>npx skills add</code> command from the Verified Shelf.
+      It does not replace scanners (SkillSpector / AcidTest); it is the v1 gate when those URLs are not attached.
+    </p>
+    <p><a href="../index.html">← Back to shelf</a></p>
+  </header>
+  <main>
+    <ol>
+      <li>Confirm the card’s <strong>pinned_ref</strong> matches the commit or tag you will install (<code>@sha</code> in the command).</li>
+      <li>Fetch the skill entry file at that ref from the public repo and compute <code>sha256sum</code>.</li>
+      <li>Compare your digest to the card’s <strong>content_sha256</strong>. Do not install on mismatch.</li>
+      <li>Skim <code>SKILL.md</code> for unexpected network calls, credential exfil, or post-install rewrite hooks.</li>
+      <li>Prefer a project-scoped install first; review agent tool permissions after reload.</li>
+      <li>Record the pin + hash you verified (PR comment or notes) so a later silent file change is visible.</li>
+    </ol>
+    <p class="meta">Source: Verified Shelf v1 · skill-pack-marketplace · design-anti-slop vertical</p>
+  </main>
+</body>
+</html>
