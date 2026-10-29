@@ -1,0 +1,110 @@
+{
+  "vertical": "design-anti-slop",
+  "updated": "2026-10-29",
+  "packs": [
+    {
+      "id": "impeccable",
+      "name": "Impeccable",
+      "summary": "Design vocabulary for coding agents — polish, critique, audit, catch AI slop. Primary skill file: .cursor/skills/impeccable/SKILL.md",
+      "repo_url": "https://github.com/pbakaus/impeccable",
+      "pinned_ref": "5e745ace7e151feb2a93d360d0281fe39448b857",
+      "content_sha256": "75240db9704747abe4fc6ef788fb37b20e2b2aee03a3fe1c221ff9b274a07f4b",
+      "skill_path": ".cursor/skills/impeccable/SKILL.md",
+      "verify_url": "verify/manual-checklist.html",
+      "verify_kind": "manual_checklist",
+      "install_command": "npx skills add pbakaus/impeccable@5e745ace7e151feb2a93d360d0281fe39448b857",
+      "license": "Apache-2.0"
+    },
+    {
+      "id": "taste-skill",
+      "name": "Taste Skill (design-taste-frontend)",
+      "summary": "Art direction, reference images, and browser look-and-feel checks instead of generic AI pages. Primary: skills/taste-skill/SKILL.md",
+      "repo_url": "https://github.com/Leonxlnx/taste-skill",
+      "pinned_ref": "12af471f627f866411b4bd785b19646d3672784c",
+      "content_sha256": "3435ed963b15a1b6447746ec8844ab2cd38d8d2e8ead3451937f42df01e408c4",
+      "skill_path": "skills/taste-skill/SKILL.md",
+      "verify_url": "verify/manual-checklist.html",
+      "verify_kind": "manual_checklist",
+      "install_command": "npx skills add Leonxlnx/taste-skill@12af471f627f866411b4bd785b19646d3672784c",
+      "license": "MIT"
+    },
+    {
+      "id": "hallmark",
+      "name": "Hallmark",
+      "summary": "Anti-AI-slop design skill for Cursor/Claude/Codex with themes and floor checks. Primary: skills/hallmark/SKILL.md",
+      "repo_url": "https://github.com/Nutlope/hallmark",
+      "pinned_ref": "8f6969f8922caabde9de1784959eae11ddf68073",
+      "content_sha256": "25a1ff92d925b2389e8409f42fb8ad7e033fceca8b5d1f07ed4ca4c28da53dc3",
+      "skill_path": "skills/hallmark/SKILL.md",
+      "verify_url": "verify/manual-checklist.html",
+      "verify_kind": "manual_checklist",
+      "install_command": "npx skills add Nutlope/hallmark@8f6969f8922caabde9de1784959eae11ddf68073",
+      "license": "MIT"
+    },
+    {
+      "id": "motionsites-web-builder",
+      "name": "MotionSites Web Builder",
+      "summary": "Award-level cinematic landing pages from MotionSites references. Primary: plugins/.../motionsites-web-builder/SKILL.md (skill text MIT; examples/media excluded)",
+      "repo_url": "https://github.com/Motionsites-AI/claude-skill",
+      "pinned_ref": "faa30d512e3973e58675c72101a7ef42ed37ae83",
+      "content_sha256": "bac1e1f79e5fd72b253c978e64f708a828b94c3512ec4d1e2eb13d3204e79035",
+      "skill_path": "plugins/motionsites-web-builder/skills/motionsites-web-builder/SKILL.md",
+      "verify_url": "verify/manual-checklist.html",
+      "verify_kind": "manual_checklist",
+      "install_command": "npx skills add Motionsites-AI/claude-skill@faa30d512e3973e58675c72101a7ef42ed37ae83",
+      "license": "MIT"
+    },
+    {
+      "id": "ai-design-skills",
+      "name": "AI Design Skills (landing-page-design)",
+      "summary": "Collection of design skills for AI coding tools; hashed entry skill landing-page-design. Primary: skills/landing-page-design/SKILL.md",
+      "repo_url": "https://github.com/elayadesign/ai-design-skills",
+      "pinned_ref": "ded7efc9d5c02761c41a03caf3b78f9259ab8828",
+      "content_sha256": "203569792660ab6d71dcb2e4fa673c0c7a0df7c99801d04ab419a4cb08aceb2c",
+      "skill_path": "skills/landing-page-design/SKILL.md",
+      "verify_url": "verify/manual-checklist.html",
+      "verify_kind": "manual_checklist",
+      "install_command": "npx skills add elayadesign/ai-design-skills@ded7efc9d5c02761c41a03caf3b78f9259ab8828",
+      "license": "MIT"
+    },
+    {
+      "id": "ui-ux-pro-max",
+      "name": "UI UX Pro Max",
+      "summary": "Design intelligence for professional UI/UX across platforms. Primary: .claude/skills/ui-ux-pro-max/SKILL.md",
+      "repo_url": "https://github.com/nextlevelbuilder/ui-ux-pro-max-skill",
+      "pinned_ref": "28b3b8dee8c976df4fa3e94aed4e092ad43fcb03",
+      "content_sha256": "ea087c341bfb5b23195c7302027268ede86da802554c18a5c4896a6017b439f9",
+      "skill_path": ".claude/skills/ui-ux-pro-max/SKILL.md",
+      "verify_url": "verify/manual-checklist.html",
+      "verify_kind": "manual_checklist",
+      "install_command": "npx skills add nextlevelbuilder/ui-ux-pro-max-skill@28b3b8dee8c976df4fa3e94aed4e092ad43fcb03",
+      "license": "MIT"
+    },
+    {
+      "id": "design-taste",
+      "name": "Design Taste",
+      "summary": "Merged synthesis of impeccable / taste-skill style guidance for elite frontend polish. Primary: SKILL.md at repo root",
+      "repo_url": "https://github.com/h3nryprod01/design-taste",
+      "pinned_ref": "e0f7e23662a859cadd8b481d59c59a7c177b2c73",
+      "content_sha256": "9c59ec93ffeb35f3005e82a4392f1a949aad077591a67fdcd76168ec17fcc8a9",
+      "skill_path": "SKILL.md",
+      "verify_url": "verify/manual-checklist.html",
+      "verify_kind": "manual_checklist",
+      "install_command": "npx skills add h3nryprod01/design-taste@e0f7e23662a859cadd8b481d59c59a7c177b2c73",
+      "license": "MIT"
+    },
+    {
+      "id": "agent-design-taste",
+      "name": "Agent Design Taste",
+      "summary": "15 style DNA folders, decision engine, anti-slop rules, taste scoring for agents. Primary: SKILL.md at repo root",
+      "repo_url": "https://github.com/aievolutionpl/agent-design-taste",
+      "pinned_ref": "5541370f2d48f3603f071127e74c4df1e29ac6ab",
+      "content_sha256": "99ed463a986dccd7a2af1842f2a4f7d15777127ea0ee3f2c8e1aaf03d00db39a",
+      "skill_path": "SKILL.md",
+      "verify_url": "verify/manual-checklist.html",
+      "verify_kind": "manual_checklist",
+      "install_command": "npx skills add aievolutionpl/agent-design-taste@5541370f2d48f3603f071127e74c4df1e29ac6ab",
+      "license": "MIT"
+    }
+  ]
+}
